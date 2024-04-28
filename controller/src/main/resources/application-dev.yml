@@ -3,7 +3,7 @@ server :
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/demo?serverTimezone=GMT%2B8&characterEncoding=utf8&useSSL=true
+    url: jdbc:mysql://localhost:3306/demo_camunda?serverTimezone=GMT%2B8&characterEncoding=utf8&useSSL=true
     username: zyh
     password: zyh081
     type: com.alibaba.druid.pool.DruidDataSource
