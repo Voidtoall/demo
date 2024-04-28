@@ -5,9 +5,10 @@ import com.example.domain.AdminUser;
 import org.springframework.stereotype.Component;
 
 @Component
-public class AdminProvider extends BaseProvider{
+public class AdminProvider {
 
     public AdminUser buildEntity() {
         return RandomDataGeneratorKit.generateRandomData(new AdminUser());
     }
+
 }
